@@ -1,0 +1,57 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+/* Título centrado */
+h1 {
+    text-align: center;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Hover en menú */
+nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* Galería */
+#galeria {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Imágenes */
+figure {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Imágenes dentro */
+figure img {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+/* Hover en imágenes */
+figure img:hover {
+    transform: scale(1.1);
+}
